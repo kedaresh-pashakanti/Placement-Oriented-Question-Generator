@@ -1,0 +1,6 @@
+question_number,question,question_type,user_answer,correct_answer,is_correct,options
+1,Who led the Mongol army to victory at the Battle of Legnica in 1241?,MCQ,Subutai,Batu Khan,False,"['Subutai', 'Batu Khan', 'Genghis Khan', 'Ögedei Khan']"
+2,What was the name of the 16th-century Ottoman Sultan who conquered Belgrade in 1521?,MCQ,Suleyman the Magnificent,Suleyman the Magnificent,True,"['Suleyman the Magnificent', 'Selim I', 'Baiazet II', 'Murad II']"
+3,"What was the name of the famous treaty signed at the end of World War I that led to the redrawing of national borders in Europe, creating the modern nation-state?",MCQ,Treaty of Versailles,Treaty of Versailles,True,"['Treaty of Versailles', 'Treaty of Berlin', 'Treaty of Paris', 'Treaty of London']"
+4,"What treaty, signed in 1215, established the principle that the king of England was not above the law?",MCQ,Magna Carta,Magna Carta,True,"['Magna Carta', 'Treaty of Versailles', 'Pax Romana', 'Treaty of Westphalia']"
+5,"Which ancient Mesopotamian king is credited with building the Hanging Gardens of Babylon, one of the Seven Wonders of the Ancient World?",MCQ,Sargon the Great,Nebuchadnezzar II,False,"['Sargon the Great', 'Hammurabi', 'Ashurbanipal', 'Nebuchadnezzar II']"
