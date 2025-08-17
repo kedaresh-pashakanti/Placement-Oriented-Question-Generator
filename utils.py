@@ -3,13 +3,14 @@ import os
 import re
 import time
 from typing import List
-from dotenv import load_dotenv
+
 from langchain_groq import ChatGroq
 from langchain.prompts import PromptTemplate
 from langchain.output_parsers import PydanticOutputParser
 from pydantic import BaseModel, Field, validator
+import os, streamlit as st
 
-load_dotenv()
+
 
 # -------------------- Data Models --------------------
 class MCQQuestion(BaseModel):
@@ -29,7 +30,7 @@ class InterviewQA(BaseModel):
 class QuestionGenerator:
     def __init__(self):
         self.llm = ChatGroq(
-            api_key=os.getenv("GROQ_API_KEY"),
+            api_key = st.secrets["GROQ_API_KEY"],
             model="llama-3.1-8b-instant",
             temperature=0.8,
         )
